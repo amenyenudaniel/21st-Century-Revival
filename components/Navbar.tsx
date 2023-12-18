@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
       </div>
       {menu && (
-        <div className="flex items-center flex-col justify-center w-[200px] gap-[1rem] absolute top-[70px] right-[10px] z-[100] flex sm:hidden">
+        <div className="flex items-center flex-col justify-center w-[200px] gap-[1rem] absolute top-[50px] right-[10px] z-[100] flex sm:hidden bg-white p-5 rounded-[1rem] slide-bottom">
           <a
             href="#about"
             onClick={() => setMenu(false)}
