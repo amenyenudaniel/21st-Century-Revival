@@ -31,7 +31,8 @@ const Navbar = () => {
             Contact
           </a>
           <a
-            href="#donate"
+            href="https://www.buymeacoffee.com/21stCentRev"
+            target="_blank"
             className="italic font-medium text-[19px] transition hover:text-[22px]"
           >
             Donate

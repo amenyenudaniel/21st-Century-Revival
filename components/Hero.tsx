@@ -36,28 +36,36 @@ const Hero = () => {
               <TfiYoutube />
             </Link>
             <Link
-              href={""}
+              href={
+                "https://www.instagram.com/21stcenturyrevival?igshid=NGVhN2U2NjQ0Yg=="
+              }
               target="_blank"
               className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaInstagram />
             </Link>
             <Link
-              href={""}
+              href={
+                "https://www.facebook.com/21stcenturyrevivals?mibextid=vk8aRt"
+              }
               target="_blank"
               className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaFacebook />
             </Link>
             <Link
-              href={""}
+              href={
+                "https://x.com/CenturyRevival?t=qBO0n3hYqAlebxgsBS9jew&s=09"
+              }
               target="_blank"
               className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaXTwitter />
             </Link>
             <Link
-              href={""}
+              href={
+                "https://www.tiktok.com/@21stcenturyrevival?_t=8iJQxlSr9SY&_r=1"
+              }
               target="_blank"
               className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
