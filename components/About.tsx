@@ -1,8 +1,6 @@
-import React from "react";
-
 const About = () => {
   return (
-    <section className="padding">
+    <section className="padding" id="about">
       <h1 className="text-center lg:text-[80px] sm:text-[50px] xs:text-[30px] text-[23px] italic font-bold mb-[1rem]">
         About Us
       </h1>

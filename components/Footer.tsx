@@ -6,9 +6,9 @@ import { TfiYoutube } from "react-icons/tfi";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="">
       <div className="w-full h-[1px] bg-black"></div>
-      <section className="paddingNav flex items-center justify-between py-5 sm:flex-row flex-col gap-[2rem]">
+      <section className="paddingNav mt-[2rem] flex items-center justify-between py-5 sm:flex-row flex-col gap-[2rem]">
         <Link href={"/"} className="flex items-center cursor-pointer">
           <img
             src="/logo.jpg"
