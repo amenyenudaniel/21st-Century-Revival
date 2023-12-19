@@ -30,12 +30,13 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a
-            href="https://www.buymeacoffee.com/21stCentRev"
-            target="_blank"
-            className="italic font-medium text-[19px] transition hover:text-[22px]"
-          >
-            Donate
+          <a href="https://www.buymeacoffee.com/21stCentRev" target="_blank">
+            <button
+              type="button"
+              className="bg-black text-white px-5 py-2 rounded-[10px] text-[18px] transition hover:text-black hover:border hover:border-black hover:bg-white"
+            >
+              Donate
+            </button>
           </a>
         </div>
 
@@ -62,12 +63,13 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a
-            href="#donate"
-            onClick={() => setMenu(false)}
-            className="italic font-medium text-[19px] transition hover:text-[22px]"
-          >
-            Donate
+          <a href="#donate" onClick={() => setMenu(false)}>
+            <button
+              type="button"
+              className="bg-black text-white px-5 py-2 rounded-[10px] text-[18px] transition hover:text-black hover:border hover:border-black hover:bg-white"
+            >
+              Donate
+            </button>
           </a>
         </div>
       )}
