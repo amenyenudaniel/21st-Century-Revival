@@ -42,3 +42,24 @@ export const gospelData = [
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iure dolorem, minima, qui deleniti incidunt, tempore magni assumenda voluptas optio cupiditate fugiat a. Voluptatum laborum labore autem libero repudiandae vero?",
   },
 ];
+
+export const recentVideosData = [
+  {
+    id: 1,
+    name: "Exposing The Truth",
+    image: "/youtube.jpg",
+    href: "https://www.youtube.com/watch?v=PjvNdABGydg",
+  },
+  {
+    id: 2,
+    name: "Christianity and Halloween",
+    image: "/youtube2.jpg",
+    href: "https://www.youtube.com/watch?v=tEC5UqAdQs8",
+  },
+  {
+    id: 3,
+    name: "The Judegment Day",
+    image: "/youtube3.jpg",
+    href: "https://www.youtube.com/watch?v=KKzWALEQ_fI",
+  },
+];
