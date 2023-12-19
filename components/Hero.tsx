@@ -2,6 +2,7 @@ import { TfiYoutube } from "react-icons/tfi";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
+
 const Hero = () => {
   return (
     <section className="hero flex  justify-center px-2">
@@ -30,35 +31,35 @@ const Hero = () => {
             <Link
               href={"https://www.youtube.com/@21stCenturyRevival"}
               target="_blank"
-              className="text-white sm:text-[2.5rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
+              className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <TfiYoutube />
             </Link>
             <Link
               href={""}
               target="_blank"
-              className="text-white sm:text-[2.5rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
+              className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaInstagram />
             </Link>
             <Link
               href={""}
               target="_blank"
-              className="text-white sm:text-[2.5rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
+              className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaFacebook />
             </Link>
             <Link
               href={""}
               target="_blank"
-              className="text-white sm:text-[2.5rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
+              className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaXTwitter />
             </Link>
             <Link
               href={""}
               target="_blank"
-              className="text-white sm:text-[2.5rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
+              className="text-white sm:text-[2rem] text-[1.8rem] cursor-pointer transition hover:scale-[1.09]"
             >
               <FaTiktok />
             </Link>
