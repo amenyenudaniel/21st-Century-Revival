@@ -63,7 +63,10 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a href="#donate" onClick={() => setMenu(false)}>
+          <a
+            href="https://www.buymeacoffee.com/21stCentRev"
+            onClick={() => setMenu(false)}
+          >
             <button
               type="button"
               className="bg-black text-white px-5 py-2 rounded-[10px] text-[18px] transition hover:text-black hover:border hover:border-black hover:bg-white"

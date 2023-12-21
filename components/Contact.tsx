@@ -84,13 +84,12 @@ const Contact = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="What's your good name?"
                 className="bg-transparent border border-black py-4 px-6  text-black rounded-lg outline-none   text-[18px] placeholder-black"
               />
             </label>
             <label className="flex flex-col  ">
               <span className="text-black text-[20px] font-medium mb-4">
-                Your email
+                Your Email
               </span>
               <input
                 required
@@ -98,7 +97,6 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="What's your web address?"
                 className="bg-transparent border border-black py-4 px-6  text-black rounded-lg outline-none   text-[18px] placeholder-black"
               />
             </label>
@@ -112,14 +110,14 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What you want to say?"
                 className="bg-transparent border border-black py-4 px-6  text-black rounded-lg outline-none   text-[18px] placeholder-black"
               />
             </label>
 
             <button
               type="submit"
-              className="outline-none py-2 sm:px-4  mt-[2rem] w-fit  px-3 text-black border border-black mt-[2rem] sm:text-[22px] text-[18px] font-bold rounded-[5px]  transition hover:text-white hover:bg-black"
+              className="outline-none py-2 sm:px-4  mt-[0.5rem] w-fit  px-3 text-black border border-black  sm:text-[22px] text-[18px] font-bold rounded-[5px]  transition hover:text-white hover:bg-black 
+              mx-auto sm:mx-0"
             >
               {loading ? "Sending..." : "Send"}
             </button>
