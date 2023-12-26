@@ -1,4 +1,3 @@
-import { gospelData } from "@/utils/data";
 import React from "react";
 import AccordionSection from "./AccordionSection";
 
@@ -10,9 +9,7 @@ const Accordion = () => {
       </h1>
 
       <div className="lg:px-[8rem] md:px-[1rem] px-[0rem]">
-        {gospelData.map((item) => (
-          <AccordionSection item={item} key={item.id} />
-        ))}
+        <AccordionSection />
       </div>
     </section>
   );

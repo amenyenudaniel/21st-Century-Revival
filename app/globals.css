@@ -37,6 +37,9 @@
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.6);
 }
+.red {
+  color: rgb(166, 13, 13);
+}
 
 @media screen and (max-width: 1200px) {
   .padding {
